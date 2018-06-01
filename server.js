@@ -4,11 +4,11 @@
 var mysql = require('mysql');
 //链接数据库
 var connection = mysql.createConnection({
-  host:'longtsing.com',
-  user:'root',
-  port:'3308',
-  password:'za-lijie',
-  database:'longtsing',
+  host:''//域名,
+  user:''//用户,
+  port:''//端口,
+  password:''//密码,
+  database:''//数据库表,
 })
 const express = require('express');
 const app = express();
